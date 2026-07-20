@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Prevent Alpine elements from flickering before JavaScript initializes */
+[x-cloak] {
+  display: none !important;
+}
